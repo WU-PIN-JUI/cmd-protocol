@@ -1,7 +1,7 @@
 # cmd-protocol
 ## 簡介
 - **你可以直接在瀏覽器使用cmd指令！**
-- YouTube影片說明(拍攝中)
+- [YouTube影片說明](https://youtu.be/PtJ_l8EhiEU)
 
 ## 使用說明 - 建置
 
