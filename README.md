@@ -49,8 +49,7 @@ if t22 == "/":
     command_tmp2 = command_tmp[:-1]
 else:
     command_tmp2 = command_tmp
-command = command_tmp2.replace('%20', ' ').replace('%5C', '\\')
-
+command = command_tmp2.replace('%20', ' ').replace('%5C', '\\').replace('%7C', '|').replace('-/', '-')
 print("     URL = " + URL)
 
 print("     command = " + command)
