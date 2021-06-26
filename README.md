@@ -49,7 +49,7 @@ if t22 == "/":
     command_tmp2 = command_tmp[:-1]
 else:
     command_tmp2 = command_tmp
-command = command_tmp2.replace('%20', ' ').replace('%5C', '\\').replace('%7C', '|').replace('-/', '-')
+command = command_tmp2.replace('%20', ' ').replace('%5C', '\\').replace('%7C', '|').replace('-/', '-').replace('%25', '%')
 print("     URL = " + URL)
 
 print("     command = " + command)
@@ -74,5 +74,4 @@ while a == 1:
         exit()
     else:
         print("Wrong input")
-
 ```
