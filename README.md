@@ -1,6 +1,7 @@
 # cmd-protocol
 ## 簡介
 - **你可以直接在瀏覽器使用cmd指令！**
+- YouTube影片說明(拍攝中)
 
 ## 使用說明 - 建置
 
@@ -48,7 +49,7 @@ if t22 == "/":
     command_tmp2 = command_tmp[:-1]
 else:
     command_tmp2 = command_tmp
-command = command_tmp2.replace('%20', ' ')
+command = command_tmp2.replace('%20', ' ').replace('%5C', '\\')
 
 print("     URL = " + URL)
 
@@ -74,4 +75,5 @@ while a == 1:
         exit()
     else:
         print("Wrong input")
+
 ```
