@@ -35,9 +35,14 @@ import sys
 import os
 
 URL = sys.argv[1]
-commands = URL.split('/')
-command_tmp = commands[2]
-command = command_tmp.replace('%20', ' ')
+commands = URL.split('//')
+command_tmp = commands[1]
+t22 = command_tmp[len(command_tmp) - 1]
+if t22 == "/":
+    command_tmp2 = command_tmp[:-1]
+else:
+    command_tmp2 = command_tmp
+command = command_tmp2.replace('%20', ' ')
 
 print("     URL = " + URL)
 
