@@ -2,6 +2,10 @@
 ## 簡介
 - **你可以直接在瀏覽器使用cmd指令！**
 - [YouTube影片說明](https://youtu.be/PtJ_l8EhiEU)
+- 注意！此程式因為會使用python程式執行cmd命令，可能會被防毒軟體查殺，請複製後先將以下檔案加入排除清單
+  ```
+  C:\Windows\system32\protocol.exe
+  ```
 
 ## 使用說明 - 建置
 
